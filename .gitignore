@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.env
+.Python
+
+# macOS and Windows junk files
+.DS_Store
+Thumbs.db
+
+# IDE config
+.vscode/
+.idea/
+
+# Tkinter window geometry
+*.log
+
+# Image cache or screenshots
+*.png
+*.jpg
+*.jpeg
