@@ -28,7 +28,7 @@ It’s perfect for personal daily notifications and runs securely using environm
 ```
 
 rain_alert/
-├── main.py         # Main script
+├── main.py                  # Main script
 ├── .env                     # Contains your secret API keys (NOT pushed to GitHub)
 ├── .gitignore               # Ignores .env and other sensitive files
 ├── requirements.txt         # Python dependencies
@@ -44,7 +44,7 @@ rain_alert/
 
 ```bash
 git clone https://github.com/sreejith-as/rain_alert.git
-cd weather-alert-bot
+cd rain_alert
 ````
 
 ### 2. Install dependencies
@@ -72,28 +72,6 @@ LONGITUDE= your_longitude_here
 ```bash
 python weather_alert.py
 ```
-
----
-
-## ⏰ Automate with Scheduling
-
-### Option A: Use `cron` (Linux/macOS)
-
-Run daily at 7 AM:
-
-```cron
-0 7 * * * /usr/bin/python3 /full/path/to/weather_alert.py
-```
-
-### Option B: Use Python's `schedule` (Cross-platform)
-
-Uncomment the schedule section in `weather_alert.py`, install the module:
-
-```bash
-pip install schedule
-```
-
-And let the script run in the background.
 
 ---
 
